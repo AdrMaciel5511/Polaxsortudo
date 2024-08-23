@@ -1,0 +1,16 @@
+ body {
+background-color: black;
+color: white; 
+font-family: "Oswald", sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+}
+
+button {
+
+    background-color: purple;
+    color: white;
+    font-family: "Oswald", sans-serifs;
+}
