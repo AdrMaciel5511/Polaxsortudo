@@ -1,5 +1,5 @@
+
 <!DOCTYPE html>
-<script src="javascript.js"></script>
 <html lang="pt-BR">
 <head>
      <link rel="stylesheet" href="style.css">
@@ -15,15 +15,20 @@
 </head>
 <main>
     <div class="passo ativo" id="passo-0">
+        <img src="cenario-passo0.png" alt="">
 <p>Você acaba de acordar desesperado, devido ao barulho do despertador.
 
     O que você quer fazer?
 </p>
-<button class="btn-proximo" data-proximo="1">Voltar a dormir</button>
+<button class="btn-proximo" data-proximo="1">Ir para a Cidade</button>
 <button class="btn-proximo" data-proximo="2">Se arrumar e ir para a escola</button>
 </div>
-<div class="passo ativo" id="passo-1">
+<div class="passo" id="passo-1">
     <p>Você quer?</p>
     <button class="btn-proximo" data-proximo="1">Cidade</button>
     <button class="btn-proximo" data-proximo="2">Esgoto</button>
     </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
